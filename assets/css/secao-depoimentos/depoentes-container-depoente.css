@@ -1,0 +1,14 @@
+.depoentes-container-depoente {
+    border: 1px solid #996445;
+    color: #996445;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 1em;
+    margin: 0 1em; 
+    transition: background-color .3s;
+}
+
+.depoentes-container-depoente:hover {
+    color: #FFFFFF;
+    background-color: #996445;;
+}

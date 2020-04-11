@@ -1,0 +1,13 @@
+.secao-ambiente-conteudo-texto {
+    background-color: #996445;
+    color: #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    letter-spacing: 0.150em;
+    line-height: 1.2em;
+    flex-basis: 25%;
+    padding: 2em;
+    text-align: center;
+    font-size: 1.2em;
+}

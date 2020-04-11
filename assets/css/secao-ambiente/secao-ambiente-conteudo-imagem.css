@@ -1,0 +1,8 @@
+.secao-ambiente-conteudo-imagem {
+    flex-basis: 37.5%;
+}
+
+.secao-ambiente-conteudo-imagem img {
+    width: 100%;
+    height: 100%;
+}
