@@ -1,0 +1,7 @@
+.secao-banner-conteudo {
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 500px;
+    width: 50%;
+}

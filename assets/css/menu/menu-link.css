@@ -2,6 +2,11 @@
     color: #000;
     text-decoration: none;
     font-weight: bold;
+    transition: .3s;
+}
+
+.menu-link:hover {
+    color: #996445;
 }
 
 .menu-link::after {
@@ -9,7 +14,7 @@
     display: block;
     width: 0;
     height: 2px;
-    background: #000;
+    background: #996445;
     transition: width .3s;
     margin-top: 5px;
 }
