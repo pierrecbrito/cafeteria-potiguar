@@ -1,0 +1,17 @@
+.rodape-redes-sociais {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0;
+}
+
+.rodape-redes-sociais-icone {
+    font-size: 1.8em;
+    transition: transform .3s;
+    margin: 0 0.3em;
+    color: #996445;
+}
+
+.rodape-redes-sociais-icone:hover {
+    transform: translateY(3px);
+}

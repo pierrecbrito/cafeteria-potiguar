@@ -25,13 +25,16 @@
     <link rel="stylesheet" href="assets/css/secao-ambiente/secao-ambiente-conteudo-texto.css">
     <link rel="stylesheet" href="assets/css/secao-ambiente/secao-ambiente-conteudo-imagem.css">
     <link rel="stylesheet" href="assets/css/secao-ambiente/secao-ambiente-conteudo-texto-btn.css">
-    <link rel="stylesheet" href="assets/css/secao-ambiente/">
+    <link rel="stylesheet" href="assets/css/rodape/rodape-redes-sociais.css">
     <link rel="stylesheet" href="assets/css/logo.css">
     <link rel="stylesheet" href="assets/css/corpo.css">
     <link rel="stylesheet" href="assets/css/rodape.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
 
     <link href="https://fonts.googleapis.com/css?family=Lato:400,900&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <header class="cabecalho">
@@ -60,7 +63,7 @@
                </div>
            </div>
         </section>
-        <section class="secao-ambiente">
+        <section class="secao-ambiente" data-aos="zoom-in-right" data-aos-once="true">
                 <div class="secao-ambiente-conteudo">
                     <div class="secao-ambiente-conteudo-imagem">
                         <img src="assets/img/ambiente.jpg" alt="">
@@ -105,8 +108,29 @@
             </div> 
         </section>
     </main>
-    <footer class="rodape">
+    <footer class="rodape animated bounce">
+        <ul class="rodape-redes-sociais">
+            <li class="rodape-redes-sociais-rede">
+                <a href="#" class="rodape-redes-sociais-rede-link">
+                    <i class="fab fa-facebook rodape-redes-sociais-icone"></i>
+                </a>
+            </li>
+            <li class="rodape-redes-sociais-rede">
+                <a href="#" class="rodape-redes-sociais-rede-link">                 
+                    <i class="fab fa-instagram rodape-redes-sociais-icone"></i>
+                </a>
+            </li>
+            <li class="rodape-redes-sociais-rede">
+                <a href="#" class="rodape-redes-sociais-rede-link">                 
+                    <i class="fab fa-youtube rodape-redes-sociais-icone"></i>
+                </a>
+            </li>
+        </ul>
         <p>&copy; Potiguar Cafeteria 2020</p>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
